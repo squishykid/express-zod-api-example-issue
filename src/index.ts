@@ -10,7 +10,7 @@ const config = createConfig({
 // method 1 for providing example
 const input = z.object({
   name: z.string().optional(),
-})//.example({name: 'bingo'})
+}).example({name: 'bingo'})
 
 // method 2 for providing example
 const output = z.object({
