@@ -12,8 +12,8 @@ importers:
         specifier: ^5.1.0
         version: 5.1.0
       express-zod-api:
-        specifier: ^24.6.0
-        version: 24.6.0(@types/express@5.0.3)(@types/http-errors@2.0.5)(@types/node@24.0.14)(express@5.1.0)(http-errors@2.0.0)(typescript@5.8.3)(zod@4.0.5)
+        specifier: ^24.7.3
+        version: 24.7.3(@types/express@5.0.3)(@types/http-errors@2.0.5)(@types/node@24.0.14)(express@5.1.0)(http-errors@2.0.0)(typescript@5.8.3)(zod@4.0.5)
       http-errors:
         specifier: ^2.0.0
         version: 2.0.0
@@ -164,8 +164,8 @@ packages:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
     engines: {node: '>= 0.6'}
 
-  express-zod-api@24.6.0:
-    resolution: {integrity: sha512-/5vb42BD9TrAUUcaXE4ImVu9XV2pi3KVwbvheKEv1gEKzGuY/eq+Ur40/91FZGTlUlKvjtPyuOnwIodPzHXMuQ==}
+  express-zod-api@24.7.3:
+    resolution: {integrity: sha512-sudmn4XR88nA9+nNOX1G1UQzhiAUAUOas5xN8L0Rs0teejc6Pp4YGIonRq9UXNR/TpvfrfbwXnqZnvCt65g2YQ==}
     engines: {node: ^20.9.0 || ^22.0.0 || ^24.0.0}
     peerDependencies:
       '@types/compression': ^1.7.5
@@ -574,7 +574,7 @@ snapshots:
 
   etag@1.8.1: {}
 
-  express-zod-api@24.6.0(@types/express@5.0.3)(@types/http-errors@2.0.5)(@types/node@24.0.14)(express@5.1.0)(http-errors@2.0.0)(typescript@5.8.3)(zod@4.0.5):
+  express-zod-api@24.7.3(@types/express@5.0.3)(@types/http-errors@2.0.5)(@types/node@24.0.14)(express@5.1.0)(http-errors@2.0.0)(typescript@5.8.3)(zod@4.0.5):
     dependencies:
       ansis: 4.1.0
       express: 5.1.0

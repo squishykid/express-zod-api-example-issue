@@ -7,13 +7,15 @@ const config = createConfig({
   cors: false, // decide whether to enable CORS
 });
 
+// method 1 for providing example
 const input = z.object({
   name: z.string().optional(),
-}).example({name: 'bingo'})
+})//.example({name: 'bingo'})
 
+// method 2 for providing example
 const output = z.object({
   greetings: z.string(),
-}).example({greetings: 'foo'})
+}).meta({examples: [{greetings: 'foo'}]})
 
 const helloWorldEndpoint = defaultEndpointsFactory.build({
   // method: "get" (default) or array ["get", "post", ...]
